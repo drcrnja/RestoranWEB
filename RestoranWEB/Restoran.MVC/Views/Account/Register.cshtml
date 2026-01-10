@@ -1,0 +1,32 @@
+﻿@model Restoran.BLL.DTOs.RegisterDto
+@{
+    ViewData["Title"] = "Registracija";
+}
+
+<h2>Registracija novog gosta</h2>
+
+<form asp-action="Register" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group mb-2">
+        <label>Ime </label>
+        <input asp-for="Ime" class="form-control" />
+        <span asp-validation-for="Ime" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-2">
+        <label>Lozinka</label>
+        <input asp-for="Lozinka" type="password" class="form-control" />
+        <span asp-validation-for="Lozinka" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Registruj se</button>
+</form>
+
+<div class="mt-2">
+    Već imaš nalog? <a asp-action="Login">Prijavi se</a>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,46 @@
+﻿@using Restoran.DAL.Entities
+@model List<Korisnik>
+@{
+    ViewData["Title"] = "Lista korisnika";
+}
+
+<h2>Lista korisnika</h2>
+
+<table class="table table-sm table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Ime</th>
+            <th>Uloga</th>
+            <th>Aktivan</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var k in Model)
+        {
+            <tr>
+                <td>@k.Id</td>
+                <td>@k.Ime</td>
+                <td>@k.Uloga</td>
+                <td>@(k.Aktivan ? "Da" : "Ne")</td>
+                <td>
+        
+                    @if (User.Identity!.Name != k.Ime &&
+                                    k.Uloga != Uloga.Menadzer &&
+                                    k.Uloga != Uloga.Kuvar &&
+                                    k.Uloga != Uloga.Konobar)
+                    {
+                        <form asp-action="PromeniStatus" method="post" class="d-inline">
+                            <input type="hidden" name="id" value="@k.Id" />
+                            <button type="submit" class="btn btn-sm btn-warning">
+                                @(k.Aktivan ? "Blokiraj" : "Aktiviraj")
+                            </button>
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

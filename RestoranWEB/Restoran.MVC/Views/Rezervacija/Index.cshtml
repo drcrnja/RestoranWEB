@@ -1,0 +1,43 @@
+﻿@model List<Restoran.BLL.DTOs.RezervacijaDto>
+@{
+    ViewData["Title"] = "Spisak rezervacija";
+}
+
+<h2 class="text-center mb-4">Spisak rezervacija</h2>
+
+<table class="table table-sm table-striped">
+    <thead>
+        <tr>
+            <th>Datum</th>
+            <th>Vreme</th>
+            <th>Broj osoba</th>
+            <th>Gost</th>
+            <th>Sto</th>
+            <th>Narudžbina</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var r in Model)
+        {
+            <tr>
+                <td>@r.Datum.ToShortDateString()</td>
+                <td>@r.Vreme.ToString(@"hh\:mm")</td>
+                <td>@r.BrojOsoba</td>
+                <td>@r.ImeGosta @r.PrezimeGosta</td>
+                <td>@r.BrojStola</td>
+                <td>@(r.NarudzbinaProizvod ?? "Nema narudžbine")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@r.IDRezervacije" class="btn btn-sm btn-primary">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@r.IDRezervacije" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (User.Identity!.IsAuthenticated)
+{
+    <a asp-action="Create" class="btn btn-success">Nova rezervacija</a>
+}
+

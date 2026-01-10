@@ -1,0 +1,58 @@
+C:\Users\drcrn\Desktop\Seminarski radovi\Arhitektura\RestoranWEB\Restoran.DAL\bin\Debug\net10.0\Restoran.DAL.deps.json
+C:\Users\drcrn\Desktop\Seminarski radovi\Arhitektura\RestoranWEB\Restoran.DAL\bin\Debug\net10.0\Restoran.DAL.runtimeconfig.json
+C:\Users\drcrn\Desktop\Seminarski radovi\Arhitektura\RestoranWEB\Restoran.DAL\bin\Debug\net10.0\Restoran.DAL.dll
+C:\Users\drcrn\Desktop\Seminarski radovi\Arhitektura\RestoranWEB\Restoran.DAL\bin\Debug\net10.0\Restoran.DAL.pdb
+C:\Users\drcrn\Desktop\Seminarski radovi\Arhitektura\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.csproj.AssemblyReference.cache
+C:\Users\drcrn\Desktop\Seminarski radovi\Arhitektura\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drcrn\Desktop\Seminarski radovi\Arhitektura\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.AssemblyInfoInputs.cache
+C:\Users\drcrn\Desktop\Seminarski radovi\Arhitektura\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.AssemblyInfo.cs
+C:\Users\drcrn\Desktop\Seminarski radovi\Arhitektura\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.csproj.CoreCompileInputs.cache
+C:\Users\drcrn\Desktop\Seminarski radovi\Arhitektura\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.dll
+C:\Users\drcrn\Desktop\Seminarski radovi\Arhitektura\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\refint\Restoran.DAL.dll
+C:\Users\drcrn\Desktop\Seminarski radovi\Arhitektura\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.pdb
+C:\Users\drcrn\Desktop\Seminarski radovi\Arhitektura\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.genruntimeconfig.cache
+C:\Users\drcrn\Desktop\Seminarski radovi\Arhitektura\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\ref\Restoran.DAL.dll
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\bin\Debug\net10.0\Restoran.DAL.deps.json
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\bin\Debug\net10.0\Restoran.DAL.runtimeconfig.json
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\bin\Debug\net10.0\Restoran.DAL.dll
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\bin\Debug\net10.0\Restoran.DAL.pdb
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.csproj.AssemblyReference.cache
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.AssemblyInfoInputs.cache
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.AssemblyInfo.cs
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.csproj.CoreCompileInputs.cache
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.sourcelink.json
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.dll
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\refint\Restoran.DAL.dll
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.pdb
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.genruntimeconfig.cache
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\ref\Restoran.DAL.dll
+C:\Users\drcrn\Desktop\Github\proba\RestoranWEB\Restoran.DAL\bin\Debug\net10.0\Restoran.DAL.deps.json
+C:\Users\drcrn\Desktop\Github\proba\RestoranWEB\Restoran.DAL\bin\Debug\net10.0\Restoran.DAL.runtimeconfig.json
+C:\Users\drcrn\Desktop\Github\proba\RestoranWEB\Restoran.DAL\bin\Debug\net10.0\Restoran.DAL.dll
+C:\Users\drcrn\Desktop\Github\proba\RestoranWEB\Restoran.DAL\bin\Debug\net10.0\Restoran.DAL.pdb
+C:\Users\drcrn\Desktop\Github\proba\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.csproj.AssemblyReference.cache
+C:\Users\drcrn\Desktop\Github\proba\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drcrn\Desktop\Github\proba\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.AssemblyInfoInputs.cache
+C:\Users\drcrn\Desktop\Github\proba\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.AssemblyInfo.cs
+C:\Users\drcrn\Desktop\Github\proba\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.csproj.CoreCompileInputs.cache
+C:\Users\drcrn\Desktop\Github\proba\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.sourcelink.json
+C:\Users\drcrn\Desktop\Github\proba\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.dll
+C:\Users\drcrn\Desktop\Github\proba\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\refint\Restoran.DAL.dll
+C:\Users\drcrn\Desktop\Github\proba\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.pdb
+C:\Users\drcrn\Desktop\Github\proba\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.genruntimeconfig.cache
+C:\Users\drcrn\Desktop\Github\proba\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\ref\Restoran.DAL.dll
+C:\Users\Vaske\Desktop\proba-main\proba-main\RestoranWEB\Restoran.DAL\bin\Debug\net10.0\Restoran.DAL.deps.json
+C:\Users\Vaske\Desktop\proba-main\proba-main\RestoranWEB\Restoran.DAL\bin\Debug\net10.0\Restoran.DAL.runtimeconfig.json
+C:\Users\Vaske\Desktop\proba-main\proba-main\RestoranWEB\Restoran.DAL\bin\Debug\net10.0\Restoran.DAL.dll
+C:\Users\Vaske\Desktop\proba-main\proba-main\RestoranWEB\Restoran.DAL\bin\Debug\net10.0\Restoran.DAL.pdb
+C:\Users\Vaske\Desktop\proba-main\proba-main\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.csproj.AssemblyReference.cache
+C:\Users\Vaske\Desktop\proba-main\proba-main\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vaske\Desktop\proba-main\proba-main\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.AssemblyInfoInputs.cache
+C:\Users\Vaske\Desktop\proba-main\proba-main\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.AssemblyInfo.cs
+C:\Users\Vaske\Desktop\proba-main\proba-main\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Vaske\Desktop\proba-main\proba-main\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.dll
+C:\Users\Vaske\Desktop\proba-main\proba-main\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\refint\Restoran.DAL.dll
+C:\Users\Vaske\Desktop\proba-main\proba-main\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.pdb
+C:\Users\Vaske\Desktop\proba-main\proba-main\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\Restoran.DAL.genruntimeconfig.cache
+C:\Users\Vaske\Desktop\proba-main\proba-main\RestoranWEB\Restoran.DAL\obj\Debug\net10.0\ref\Restoran.DAL.dll

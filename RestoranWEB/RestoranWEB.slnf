@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "path": "RestoranWEB.slnx",
+    "projects": [
+      "Restoran.BLL\\Restoran.BLL.csproj",
+      "Restoran.DAL\\Restoran.DAL.csproj",
+      "Restoran.MVC\\Restoran.MVC.csproj"
+    ]
+  }
+}

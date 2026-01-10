@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Restoran.BLL/Restoran.BLL.csproj" />
+  <Project Path="Restoran.DAL/Restoran.DAL.csproj" />
+  <Project Path="Restoran.MVC/Restoran.MVC.csproj" />
+</Solution>

@@ -1,0 +1,123 @@
+﻿@model Restoran.BLL.DTOs.RezervacijaDto
+
+<h2>Nova rezervacija</h2>
+
+<style>
+   
+    input[type="date"]:invalid::-webkit-datetime-edit {
+        color: transparent;
+    }
+
+    input[type="date"]:focus::-webkit-datetime-edit {
+        color: black;
+    }
+
+    option:disabled {
+        color: red;
+        background-color: #fdd;
+    }
+</style>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger mt-2">
+        @foreach (var err in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+        {
+            <div>@err.ErrorMessage</div>
+        }
+    </div>
+}
+
+<form asp-action="Create">
+    @Html.AntiForgeryToken()
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group">
+        <label>Ime gosta</label>
+        <input asp-for="ImeGosta" class="form-control" autocomplete="off" />
+        <span asp-validation-for="ImeGosta" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Prezime gosta</label>
+        <input asp-for="PrezimeGosta" class="form-control" autocomplete="off" />
+        <span asp-validation-for="PrezimeGosta" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Datum</label>
+        <input asp-for="Datum" type="date" class="form-control" id="Datum" />
+        <span asp-validation-for="Datum" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Vreme</label>
+        <input asp-for="Vreme" type="time" class="form-control" />
+        <span asp-validation-for="Vreme" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Broj osoba</label>
+        <select asp-for="BrojOsoba" class="form-control">
+            @for (int i = 1; i <= 4; i++)
+            {
+                <option value="@i">@i</option>
+            }
+        </select>
+        <span asp-validation-for="BrojOsoba" class="text-danger"></span>
+    </div>
+    <div class="form-group mb-2">
+        <label>Narudžbina</label>
+        <select asp-for="NarudzbinaProizvod" class="form-control">
+            <option value="">Bez narudžbine</option>
+            <option value="Magnezijum">Magnezijum</option>
+            <option value="Kisela voda">Kisela voda</option>
+            <option value="SNS sendvič">SNS sendvič</option>
+        </select>
+        <span asp-validation-for="NarudzbinaProizvod" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Broj stola</label>
+        <select asp-for="BrojStola" class="form-control" id="stoloviSelect">
+            @foreach (var sto in ViewBag.Stolovi as IEnumerable<SelectListItem>)
+            {
+                var zauzet = (ViewBag.ZauzetiStolovi as List<int>).Contains(int.Parse(sto.Value));
+                <option value="@sto.Value"
+                        style="background-color: @(zauzet ? "crimson" : "limegreen"); color: white;">
+                    @sto.Text
+                </option>
+            }
+        </select>
+        <span asp-validation-for="BrojStola" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Sačuvaj</button>
+</form>
+
+<a asp-action="Index">Nazad na listu</a>
+
+@section Scripts {
+    <script>
+        document.getElementById("Datum").addEventListener("change", async function () {
+            const datum = this.value;
+            const response = await fetch(`/Rezervacija/GetZauzetiStoloviJson?datum=${datum}`);
+            const zauzeti = await response.json();
+
+            const select = document.getElementById("stoloviSelect");
+            select.innerHTML = "";
+
+            const sviStolovi = @Html.Raw(Json.Serialize(ViewBag.Stolovi as IEnumerable<SelectListItem>));
+
+            sviStolovi.forEach(sto => {
+                const option = document.createElement("option");
+                option.value = sto.value;
+                option.text = sto.text;
+                const zauzet = zauzeti.includes(parseInt(sto.value));
+                option.style.backgroundColor = zauzet ? "crimson" : "limegreen";
+                option.style.color = "white";
+                select.appendChild(option);
+            });
+        });
+    </script>
+}

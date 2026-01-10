@@ -1,0 +1,17 @@
+﻿@model Restoran.BLL.DTOs.RezervacijaDto
+
+@{
+    ViewData["Title"] = "Brisanje rezervacije";
+}
+
+<h2>Brisanje rezervacije</h2>
+
+<p>Da li ste sigurni da želite da obrišete rezervaciju za <strong>@Model.ImeGosta @Model.PrezimeGosta</strong>, sto broj <strong>@Model.BrojStola</strong>, dana <strong>@Model.Datum.ToString("d")</strong>?</p>
+
+<form asp-action="DeleteConfirmed" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" name="id" value="@Model.IDRezervacije" />
+
+    <button type="submit" class="btn btn-danger btn-lg">Obriši</button>
+    <a asp-action="Index" class="btn btn-secondary btn-lg ms-2">Odustani</a>
+</form>

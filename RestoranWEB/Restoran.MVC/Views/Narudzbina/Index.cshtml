@@ -1,0 +1,36 @@
+﻿@model List<Restoran.DAL.Entities.Narudzbina>
+@{
+    ViewData["Title"] = "Narudžbine";
+}
+
+<h2>Narudžbine</h2>
+
+<table class="table table-sm table-striped">
+    <thead>
+        <tr>
+            <th>Sto</th>
+            <th>Proizvod</th>
+            <th>Datum</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var n in Model)
+        {
+            <tr>
+                <td>@n.BrojStola</td>
+                <td>@n.Proizvod</td>
+                <td>@n.Datum.ToShortDateString()</td>
+                <td>
+                    <form asp-action="Delete" method="post" class="d-inline">
+                        <input type="hidden" name="id" value="@n.Id" />
+                        <button type="submit" class="btn btn-sm btn-danger">Obriši</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+

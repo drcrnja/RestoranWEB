@@ -1,0 +1,15 @@
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\bin\Release\net10.0\Restoran.DAL.deps.json
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\bin\Release\net10.0\Restoran.DAL.runtimeconfig.json
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\bin\Release\net10.0\Restoran.DAL.dll
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\bin\Release\net10.0\Restoran.DAL.pdb
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\obj\Release\net10.0\Restoran.DAL.csproj.AssemblyReference.cache
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\obj\Release\net10.0\Restoran.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\obj\Release\net10.0\Restoran.DAL.AssemblyInfoInputs.cache
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\obj\Release\net10.0\Restoran.DAL.AssemblyInfo.cs
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\obj\Release\net10.0\Restoran.DAL.csproj.CoreCompileInputs.cache
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\obj\Release\net10.0\Restoran.DAL.sourcelink.json
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\obj\Release\net10.0\Restoran.DAL.dll
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\obj\Release\net10.0\refint\Restoran.DAL.dll
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\obj\Release\net10.0\Restoran.DAL.pdb
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\obj\Release\net10.0\Restoran.DAL.genruntimeconfig.cache
+C:\Users\drcrn\Desktop\Github\RestoranWeb\RestoranWEB\Restoran.DAL\obj\Release\net10.0\ref\Restoran.DAL.dll
