@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Vaske\\Documents\\GitHub\\RestoranWEB\\src\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91BE3169-5F62-56B9-60A1-C54D08B4944E}|Restoran.MVC\\Restoran.MVC.csproj|c:\\users\\vaske\\documents\\github\\restoranweb\\src\\restoran.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{91BE3169-5F62-56B9-60A1-C54D08B4944E}|Restoran.MVC\\Restoran.MVC.csproj|solutionrelative:restoran.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Vaske\\Documents\\GitHub\\RestoranWEB\\src\\Restoran.MVC\\appsettings.json",
+              "RelativeDocumentMoniker": "Restoran.MVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\Vaske\\Documents\\GitHub\\RestoranWEB\\src\\Restoran.MVC\\appsettings.json",
+              "RelativeToolTip": "Restoran.MVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-13T13:12:26.671Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
