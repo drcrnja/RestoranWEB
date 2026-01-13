@@ -1,4 +1,4 @@
-# 🍽️ Restoran Dino – Rezervacija stolova i poručivanje
+# 🍽️ Restoran – Rezervacija stolova i poručivanje
 
 ASP.NET Core MVC aplikacija za **rezervaciju stolova** i **poručivanje hrane** u restoranu, razvijena u okviru predmeta **Arhitektura informacionih sistema** – Tehnički fakultet „Mihajlo Pupin“ Zrenjanin.
 
